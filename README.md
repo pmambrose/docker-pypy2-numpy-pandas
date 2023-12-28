@@ -6,7 +6,7 @@ This repository hosts a Dockerfile that creates a Docker image with PyPy2, NumPy
 
 -   **Python 2.7 Compatibility**: Enables running older Python code without modifications if packages are compatible.
 
--   **Enhanced Performance with PyPy**: Utilizes PyPy's JIT compiler for [faster execution](https://speed.pypy.org) of Python code compared to the default CPython. My Python 2 bioinformatic workflow (which extensively uses numpy) experienced a 29% reduction in processing time using PyPy. Significant for longer running code, such as my aforementioned workflow that runs for days.
+-   **Enhanced Performance with PyPy**: Utilizes PyPy's JIT compiler for [faster execution](https://speed.pypy.org) of Python code compared to the default CPython. My Python 2 bioinformatic workflow (which extensively uses numpy) experienced a 29% reduction in processing time using PyPy. Significant for longer running code, such as my aforementioned workflow that runs for days on larger datasets such as an entire HiSeq 2500 run.
 
 -   **NumPy and Pandas**: Integrates PyPy 2.7 compatible versions of essential libraries for data processing and analysis.
 
